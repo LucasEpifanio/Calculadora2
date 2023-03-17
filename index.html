@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+		<title>Calculadora</title>
+
+	</head>
+	<body>
+		<div id="calculator">
+			<input type="text" class="valor" id="valor" disabled="disabled" />
+			<div class="clr"></div>
+			<div>
+				<input type="button" value="7" onclick="calcular(7)" class="btn" />
+				<input type="button" value="8" onclick="calcular(8)" class="btn" />
+				<input type="button" value="9" onclick="calcular(9)" class="btn" />
+				<input type="button" value="/" onclick="calcular('/')" class="operacoes" />
+			</div>
+			<div class="clr"></div>
+			<div>
+				<input type="button" value="4" onclick="calcular(4)" class="btn" />
+				<input type="button" value="5" onclick="calcular(5)" class="btn" />
+				<input type="button" value="6" onclick="calcular(6)" class="btn" />
+				<input type="button" value="*" onclick="calcular('*')" class="operacoes" />
+			</div>
+			<div class="clr"></div>
+			<div>
+				<input type="button" value="1" onclick="calcular(1)" class="btn" />
+				<input type="button" value="2" onclick="calcular(2)" class="btn" />
+				<input type="button" value="3" onclick="calcular(3)" class="btn" />
+				<input type="button" value="-" onclick="calcular('-')" class="operacoes" />
+			</div>
+			<div class="clr"></div>
+			<div>
+				<input type="button" value="0" onclick="calcular(0)" class="btn" />
+				<input type="button" value="c" onclick="resetar()" class="btn" />
+				<input type="button" value="=" onclick="calcularResultado()" class="btn" />
+				<input type="button" value="+" onclick="calcular('+')" class="operacoes" />
+			</div>
+			<div class="clr"></div>
+		</div>
+	</body>
+</html>
